@@ -72,6 +72,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 9mm Luger Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 80f3addaf4a849742bbaaf6cc5901969, type: 3}
+      propertyPath: m_TagString
+      value: Bullet
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -103,7 +107,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8892de8f00739ab469134732a7bfbb83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -50
+  speed: -20
+  maxLifeTime: 2
 --- !u!136 &3901365722546198683
 CapsuleCollider:
   m_ObjectHideFlags: 0
